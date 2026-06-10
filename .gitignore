@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+logs/
+*.log
+contract_rag/data/raw/
+contract_rag/data/processed/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
