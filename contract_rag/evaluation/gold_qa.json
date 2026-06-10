@@ -1,0 +1,352 @@
+[
+  {
+    "id": "qa_001",
+    "question": "What is the liability cap in this contract?",
+    "ground_truth": "The liability cap limits damages to the total fees paid in the preceding 12 months.",
+    "clause_type": "liability",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_002",
+    "question": "What are the termination notice requirements?",
+    "ground_truth": "Either party may terminate with 30 days written notice.",
+    "clause_type": "termination",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_003",
+    "question": "Does this contract have an auto-renewal clause?",
+    "ground_truth": "The contract automatically renews for successive one-year terms unless either party provides 60 days notice of non-renewal.",
+    "clause_type": "termination",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_004",
+    "question": "What confidentiality obligations does the receiving party have?",
+    "ground_truth": "The receiving party must keep confidential information secret for 3 years and use it only for the purposes of the agreement.",
+    "clause_type": "confidentiality",
+    "contract_type": "NDA"
+  },
+  {
+    "id": "qa_005",
+    "question": "Who is responsible for indemnification in case of IP infringement?",
+    "ground_truth": "The vendor shall indemnify the client against any third-party claims arising from intellectual property infringement.",
+    "clause_type": "indemnification",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_006",
+    "question": "What is the governing law for this contract?",
+    "ground_truth": "This agreement is governed by the laws of the State of Delaware.",
+    "clause_type": "governing_law",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_007",
+    "question": "What are the payment terms?",
+    "ground_truth": "Invoices are due within 30 days of receipt. Late payments accrue interest at 1.5% per month.",
+    "clause_type": "payment",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_008",
+    "question": "Who owns intellectual property created under this agreement?",
+    "ground_truth": "All work product created by the vendor under this agreement is assigned to and owned by the client.",
+    "clause_type": "intellectual_property",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_009",
+    "question": "What warranties does the vendor provide?",
+    "ground_truth": "The vendor warrants that services will be performed in a professional manner consistent with industry standards.",
+    "clause_type": "warranty",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_010",
+    "question": "What is the effective date of the agreement?",
+    "ground_truth": "The agreement is effective as of the date last signed by both parties.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_011",
+    "question": "Can the contract be assigned to a third party?",
+    "ground_truth": "Neither party may assign this agreement without prior written consent of the other party.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_012",
+    "question": "What are the consequences of a material breach?",
+    "ground_truth": "In the event of a material breach, the non-breaching party may terminate immediately upon written notice.",
+    "clause_type": "termination",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_013",
+    "question": "Is there a non-solicitation clause?",
+    "ground_truth": "During the term and for 12 months after, neither party shall solicit the other party's employees.",
+    "clause_type": "general",
+    "contract_type": "Employment"
+  },
+  {
+    "id": "qa_014",
+    "question": "What dispute resolution mechanism is specified?",
+    "ground_truth": "Disputes shall be resolved by binding arbitration under AAA rules in New York.",
+    "clause_type": "governing_law",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_015",
+    "question": "What limitations exist on consequential damages?",
+    "ground_truth": "Neither party shall be liable for indirect, incidental, or consequential damages under any circumstances.",
+    "clause_type": "liability",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_016",
+    "question": "How long does the confidentiality obligation last after termination?",
+    "ground_truth": "Confidentiality obligations survive termination of the agreement for a period of 5 years.",
+    "clause_type": "confidentiality",
+    "contract_type": "NDA"
+  },
+  {
+    "id": "qa_017",
+    "question": "What is the scope of the indemnification obligation?",
+    "ground_truth": "Indemnification covers third-party claims arising from gross negligence or wilful misconduct.",
+    "clause_type": "indemnification",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_018",
+    "question": "Are there any force majeure provisions?",
+    "ground_truth": "Neither party is liable for delays caused by circumstances beyond their reasonable control including natural disasters and government actions.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_019",
+    "question": "What notice is required before termination for convenience?",
+    "ground_truth": "Termination for convenience requires 90 days prior written notice to the other party.",
+    "clause_type": "termination",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_020",
+    "question": "Does the NDA cover oral disclosures?",
+    "ground_truth": "Oral disclosures are covered if confirmed in writing within 10 business days of disclosure.",
+    "clause_type": "confidentiality",
+    "contract_type": "NDA"
+  },
+  {
+    "id": "qa_021",
+    "question": "What is the maximum aggregate liability under this agreement?",
+    "ground_truth": "Maximum aggregate liability is capped at two times the total fees paid in the prior 6 months.",
+    "clause_type": "liability",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_022",
+    "question": "What are the audit rights of the client?",
+    "ground_truth": "Client may audit vendor records once per year upon 30 days written notice.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_023",
+    "question": "What happens to data upon termination?",
+    "ground_truth": "Upon termination vendor shall return or destroy all client data within 30 days.",
+    "clause_type": "confidentiality",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_024",
+    "question": "Is the vendor allowed to use subcontractors?",
+    "ground_truth": "Vendor may engage subcontractors with prior written approval from client.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_025",
+    "question": "What insurance is the vendor required to maintain?",
+    "ground_truth": "Vendor must maintain commercial general liability insurance of at least $2 million per occurrence.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_026",
+    "question": "What are the SLA requirements?",
+    "ground_truth": "Vendor guarantees 99.9% uptime measured monthly with credits for downtime exceeding the SLA.",
+    "clause_type": "warranty",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_027",
+    "question": "Can the client withhold payment during a dispute?",
+    "ground_truth": "Client may withhold disputed amounts in good faith but must pay undisputed amounts by the due date.",
+    "clause_type": "payment",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_028",
+    "question": "What is the non-compete period for the employee?",
+    "ground_truth": "Employee agrees not to compete with the employer for 24 months following termination.",
+    "clause_type": "general",
+    "contract_type": "Employment"
+  },
+  {
+    "id": "qa_029",
+    "question": "Who bears the cost of contract modifications?",
+    "ground_truth": "Any amendments require mutual written consent and cost allocation is negotiated at the time of amendment.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_030",
+    "question": "What representations does the vendor make about its software?",
+    "ground_truth": "Vendor represents that the software does not infringe third-party IP rights and contains no malicious code.",
+    "clause_type": "warranty",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_031",
+    "question": "Is there a most favoured nation pricing clause?",
+    "ground_truth": "Vendor agrees to offer client pricing no less favourable than that offered to comparable customers.",
+    "clause_type": "payment",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_032",
+    "question": "What are the data protection obligations?",
+    "ground_truth": "Vendor shall process personal data only per client instructions and implement appropriate technical safeguards.",
+    "clause_type": "confidentiality",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_033",
+    "question": "Can the client terminate if the vendor is acquired?",
+    "ground_truth": "Client may terminate within 60 days of notice of a change of control of the vendor.",
+    "clause_type": "termination",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_034",
+    "question": "What is the notice period for price increases?",
+    "ground_truth": "Vendor must provide 90 days written notice before implementing any price increases.",
+    "clause_type": "payment",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_035",
+    "question": "What happens if a clause is found unenforceable?",
+    "ground_truth": "If any provision is found unenforceable the remaining provisions continue in full force and effect.",
+    "clause_type": "general",
+    "contract_type": "MSA"
+  },
+  {
+    "id": "qa_036",
+    "question": "Does the lease allow subletting?",
+    "ground_truth": "Tenant may not sublet any portion of the premises without prior written consent of the landlord.",
+    "clause_type": "general",
+    "contract_type": "Lease"
+  },
+  {
+    "id": "qa_037",
+    "question": "What are the rent escalation terms?",
+    "ground_truth": "Rent increases annually by 3% or CPI whichever is greater.",
+    "clause_type": "payment",
+    "contract_type": "Lease"
+  },
+  {
+    "id": "qa_038",
+    "question": "What is the security deposit amount and return conditions?",
+    "ground_truth": "Security deposit equals two months rent and is returned within 21 days of lease termination less any deductions.",
+    "clause_type": "payment",
+    "contract_type": "Lease"
+  },
+  {
+    "id": "qa_039",
+    "question": "What are the maintenance responsibilities of the tenant?",
+    "ground_truth": "Tenant is responsible for routine maintenance and minor repairs up to $500 per incident.",
+    "clause_type": "general",
+    "contract_type": "Lease"
+  },
+  {
+    "id": "qa_040",
+    "question": "What is the cure period for a breach of the lease?",
+    "ground_truth": "Tenant has 10 days to cure a monetary breach and 30 days to cure a non-monetary breach after notice.",
+    "clause_type": "termination",
+    "contract_type": "Lease"
+  },
+  {
+    "id": "qa_041",
+    "question": "What are the employee's base salary and bonus terms?",
+    "ground_truth": "Base salary is $120,000 per year with an annual performance bonus of up to 20% of base salary.",
+    "clause_type": "payment",
+    "contract_type": "Employment"
+  },
+  {
+    "id": "qa_042",
+    "question": "What is the severance entitlement upon termination without cause?",
+    "ground_truth": "Employee receives 3 months base salary as severance upon termination without cause.",
+    "clause_type": "termination",
+    "contract_type": "Employment"
+  },
+  {
+    "id": "qa_043",
+    "question": "Who owns inventions created by the employee?",
+    "ground_truth": "All inventions created during employment relating to company business are assigned to the employer.",
+    "clause_type": "intellectual_property",
+    "contract_type": "Employment"
+  },
+  {
+    "id": "qa_044",
+    "question": "What are the purchase price and payment schedule?",
+    "ground_truth": "Purchase price is $500,000 payable as $100,000 deposit and $400,000 on closing.",
+    "clause_type": "payment",
+    "contract_type": "Purchase"
+  },
+  {
+    "id": "qa_045",
+    "question": "What representations does the seller make about the asset?",
+    "ground_truth": "Seller represents that the asset is free of liens encumbrances and third-party claims.",
+    "clause_type": "warranty",
+    "contract_type": "Purchase"
+  },
+  {
+    "id": "qa_046",
+    "question": "What are the conditions precedent to closing?",
+    "ground_truth": "Closing is conditioned on regulatory approval satisfactory due diligence and no material adverse change.",
+    "clause_type": "general",
+    "contract_type": "Purchase"
+  },
+  {
+    "id": "qa_047",
+    "question": "Is there an earnout provision in the purchase agreement?",
+    "ground_truth": "Seller is entitled to earnout payments of up to $200,000 based on revenue targets in years one and two.",
+    "clause_type": "payment",
+    "contract_type": "Purchase"
+  },
+  {
+    "id": "qa_048",
+    "question": "What indemnification does the seller provide post-closing?",
+    "ground_truth": "Seller indemnifies buyer for breaches of representations for 18 months post-closing subject to a $50,000 basket.",
+    "clause_type": "indemnification",
+    "contract_type": "Purchase"
+  },
+  {
+    "id": "qa_049",
+    "question": "What are the non-disclosure obligations in the purchase agreement?",
+    "ground_truth": "Both parties agree to keep deal terms confidential for 3 years except as required by law.",
+    "clause_type": "confidentiality",
+    "contract_type": "Purchase"
+  },
+  {
+    "id": "qa_050",
+    "question": "What is the termination fee if the buyer walks away?",
+    "ground_truth": "Buyer pays a break fee of $25,000 if it terminates the agreement without cause.",
+    "clause_type": "termination",
+    "contract_type": "Purchase"
+  }
+]
